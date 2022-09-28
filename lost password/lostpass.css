@@ -1,0 +1,124 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: url(first.jpg);
+    background-size:cover;
+    font-family:sans-serif;
+}
+/* this is for input box*/
+.loginbox{
+    width: 350px;
+    height: 400px;
+    background: black;
+color: rgb(255, 251, 251);
+top: 50%;
+left: 40%;
+position: absolute;
+transform: translate(-50% -50%);
+box-sizing: border-box;
+padding: 60px 20px;
+border-radius:10px;
+}
+.third3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 37%;
+    top: -10%;
+}
+h1{
+    padding: -0;
+    margin: 5  1px;
+    text-align: center;
+    font-size: 20px;
+}
+.loginbox p{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+.loginbox input{
+    width: 70%;
+    margin-bottom: 20px;
+    position: calc(50%);
+}
+.loginbox input[type="text"]{
+    border: none;
+border-bottom: 1px solid #ffff;
+background: transparent;
+outline: none;
+height: 40px;
+color: aquamarine;
+font-size: 16px;
+}
+/*.loginbox input[type="text"]:hover{
+cursor: pointer;
+background-color: green;
+border : none;
+}*/
+
+
+/* this is for get otp button*/
+.loginbox input[type="submit"]{
+    background: none;
+	padding: 10px 20px;
+	color: #10c9c3;
+	font-family: 'Montserrat', sans-serif;
+	border: 2px solid #10c9c3;
+    border-radius: 12px;
+	transition: 0.3s;
+	position: relative;
+}
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    color: aqua;
+    background-color: green;}
+    .loginbox input [type="submit"]:hover,:active {
+        color: white;
+    }
+    .loginbox input[type="submit"]:after {
+        content: '';
+        position: absolute;
+        transition: all 0.3s;
+        width: 0%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        color: white;
+        z-index: -1;
+    }
+    .loginbox input[type="submit"]:hover::after {
+        width: 100%;
+        background: green;
+    }
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 20px;
+    color: gray;
+}
+.loginbox a:hover
+{
+    color: rgb(189, 217, 236);
+    width: 100%;
+    
+	
+}
+.loginbox input[type="otp"]{
+    width: 100px;
+    height: 20px;
+    background: none;
+	padding: 10px 10px;
+	color: aquamarine;
+	font-family: 'Montserrat', sans-serif;
+    border: none;
+    outline: none;
+	border-bottom: 1px solid #ffff;
+    transition: 0.3s;
+	position: relative;
+    left : 150px;
+    margin-top: 10%;
+}
+
